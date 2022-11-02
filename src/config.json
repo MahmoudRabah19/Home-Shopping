@@ -1,0 +1,6 @@
+{
+  "api": { 
+    "invokeUrl": "https://s9tme76mge.execute-api.eu-central-1.amazonaws.com/BU2_Ecommerce"
+  } 
+
+}

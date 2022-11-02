@@ -1,0 +1,123 @@
+body{
+  /* text-align: center; */
+  height: 100vh;
+}
+h1 {
+  font-size: 2em;
+}
+
+.product-title {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.product-id {
+  font-size: .8em;
+  margin: 1em 0;
+}
+
+.product-edit-icon {
+  opacity: .7;
+  position: absolute;
+  right: 2.3rem;
+  top: .4rem;
+}
+
+.product-edit-icon:hover {
+  opacity: 1;
+}
+
+.navbar, .navbar-end, .navbar-menu, .navbar-start {
+  align-items: stretch !important;
+  display: flex !important;
+}
+
+.navbar-menu {
+  flex-grow: 1 !important;
+  flex-shrink: 0 !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+}
+
+.navbar-item {
+  display: flex !important;
+}
+
+.navbar-end {
+  justify-content: flex-end !important;
+  margin-left: auto !important;
+}
+
+.features {
+  padding-bottom: 3em;
+}
+
+body {
+  visibility: visible !important;
+}
+
+.Signin, .Signup{
+  width:100%;
+	margin:auto;
+	max-width:525px;
+	min-height:670px;
+	position:relative;
+	background: url("./signin.png") no-repeat center;
+	box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
+	position:relative;
+	perspective:1000px;
+	transform-style:preserve-3d;
+  padding-top: 120px;
+}
+.Signup{
+  padding-top: 60px;
+  background: url("./signup.png") no-repeat center;
+}
+
+button, input, select, textarea {
+  width: 30%;
+  margin: 5px 50px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-shadow: inset 0 1px 3px #ddd;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.input.is-medium, .textarea.is-medium {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  margin-left: 0%;
+}
+button:hover, button:active {
+  background-color: #059862 !important;
+  color: #ffffff;
+}
+.Signin input, .Signin  p, .Signup input, .Signup  p {
+  width: 70%;
+	color:rgb(0, 0, 0);
+	display:block;
+}
+.Signin  input, .Signin button, .Signup  input, .Signup button {
+  border:none;
+	padding:15px 20px;
+	border-radius:25px;
+	background:rgba(255, 255, 255, 0.836);
+}
+.Signin label, .Signup label {
+  color:rgb(219, 118, 2);
+	font-size:20px;
+  font-weight: bolder;
+  padding-left: 35px;
+  
+}
+.Signin button , .Signup button{
+  background:#2567d8;
+  margin-left: 150px;
+}
